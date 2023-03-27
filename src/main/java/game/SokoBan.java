@@ -124,7 +124,7 @@ public class SokoBan extends Window {
       System.out.println("dest" + dest.x + " " + dest.y);
       if (ch(dest) == 'W' || ch(dest) == 'E') {return;}  // Blocked
       if (ch(dest) == ' ' || ch(dest) == 'G') {movePerson(); return;}  // able to move
-      if (ch(dest) == 'C' || ch(dest) == 'g') {  // can push the box
+      if (ch(dest) == 'C' || ch(dest) == 'g') {  // if block is orange or blue able to push the box
         dest.add(v);
         if (ch(dest) != ' ' && ch(dest) != 'G') {return;}  // can't move
         set(dest, (ch(dest) == 'G') ? 'g' : 'C');
