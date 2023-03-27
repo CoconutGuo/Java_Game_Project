@@ -1,7 +1,7 @@
-package games;
+package game;
 
-import lib.G;
-import lib.Window;
+import graphics.G;
+import graphics.Window;
 import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.util.ArrayList;
